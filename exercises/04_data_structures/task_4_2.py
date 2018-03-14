@@ -9,3 +9,5 @@
 '''
 
 MAC = 'AAAA:BBBB:CCCC'
+FDB = MAC.replace(':', '.')
+print(FDB)
